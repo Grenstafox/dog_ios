@@ -30,6 +30,7 @@
 		FB37E9F92DDB85E700EECFF9 /* placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB37E9E12DDB85E700EECFF9 /* placeholder.swift */; };
 		FB37E9FA2DDB85E700EECFF9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB37E9E32DDB85E700EECFF9 /* Preview Assets.xcassets */; };
 		FB37E9FD2DDB92B900EECFF9 /* colores.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB37E9FC2DDB92B900EECFF9 /* colores.swift */; };
+		FBA9090B2DDE29C3002C19C2 /* slider dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA9090A2DDE29C3002C19C2 /* slider dog.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		FB37E9E32DDB85E700EECFF9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FB37E9FC2DDB92B900EECFF9 /* colores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colores.swift; sourceTree = "<group>"; };
 		FB8B81D12DD7A0C900D9145C /* dog_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dog_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBA9090A2DDE29C3002C19C2 /* slider dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "slider dog.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +142,7 @@
 			children = (
 				FB37E9DB2DDB85E700EECFF9 /* publicacion.swift */,
 				FB37E9DC2DDB85E700EECFF9 /* publicaciones_generales.swift */,
+				FBA9090A2DDE29C3002C19C2 /* slider dog.swift */,
 			);
 			path = publicacion;
 			sourceTree = "<group>";
@@ -301,6 +304,7 @@
 				FB37E9F92DDB85E700EECFF9 /* placeholder.swift in Sources */,
 				FB37E9EA2DDB85E700EECFF9 /* mono_chino.swift in Sources */,
 				FB37E9EC2DDB85E700EECFF9 /* transformacion.swift in Sources */,
+				FBA9090B2DDE29C3002C19C2 /* slider dog.swift in Sources */,
 				FB37E9FD2DDB92B900EECFF9 /* colores.swift in Sources */,
 				FB37E9EB2DDB85E700EECFF9 /* planeta.swift in Sources */,
 				FB37E9ED2DDB85E700EECFF9 /* comentario.swift in Sources */,

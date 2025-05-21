@@ -17,7 +17,7 @@ struct ContentView: View {
     var body: some View {
         ZStack{
             Rectangle()
-                .foregroundColor(tema_colores["color_2"])
+                .foregroundColor(.yellow)
                 .cornerRadius(40)
                 .frame(width: 400, height: 100)
             Text("Hola a APIDOG")

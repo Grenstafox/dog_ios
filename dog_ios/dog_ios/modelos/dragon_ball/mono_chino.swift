@@ -4,20 +4,25 @@
 //
 //  Created by alumno on 4/7/25.
 //
+import Foundation
 
-struct MonoChino: Identifiable, Codable{
-    let id: Int
-    let name: String
-    let ki: String
-    let maxKi: String
-    let race: String
-    let gender: String
-    let description: String
+struct Perrito: Identifiable, Codable{
+    //datos de la api
     let image: String
-    let affiliation: String
-
-    let originPlanet: Planeta?
+    let breed: String
     
-    //let transformations: Array<Transformacion>
-    let transformations: [Transformacion]?
+    // El resto de las propiedades
+    let id = UUID()
+    let name: String = "Sin nombre"
+    let race: String
+    let gender: String = "Desconocido"
+    let description: String = "Sin description"
+    let ancester: String = "Desconocido"
+    
+    //Calcular manualmente la raza
+    init(image: String, breed: String) {
+        self.image = image
+        self.breed = breed
+        self.race = breed
+    }
 }

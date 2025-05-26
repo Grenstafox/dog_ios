@@ -17,7 +17,7 @@ public class ControladorAplicacion{
     var perfil_a_mostrar: Perfil? = nil
     // Seccion Dragon Ball
     var pagina_resultados: PaginaResultado? = nil
-    var personaje: MonoChino? = nil
+    var personaje: Perrito? = nil
     
     
     init(){
@@ -29,13 +29,13 @@ public class ControladorAplicacion{
     }
     
     func descargar_monos_chinos() async {
-        guard let pagina_descargada: PaginaResultado = try? await DragonBallAPI().descargar_pagina_personajes() else { return }
+        guard let pagina_descargada: PaginaResultado = try? await DogAPI().descargar_pagina_personajes() else { return }
         
         self.pagina_resultados = pagina_descargada
     }
     
     func descargar_info_personaje(id: Int) async {
-        guard let mono_chino: MonoChino = try? await DragonBallAPI().descargar_informacion_personaje(id: id) else { return }
+        guard let mono_chino: Perrito = try? await DogAPI().descargar_informacion_personaje(id: id) else { return }
         
         self.personaje = mono_chino
     }

@@ -10,14 +10,14 @@ import SwiftUI
 struct PublicacionVista: View {
     @Environment(ControladorAplicacion.self) var controlador
     @State private var selectedImageIndex = 0
-    private let dogImages = ["dog1", "dog2", "dog3"] // Nombres de tus imágenes en Assets
+    private let dogImages = ["Golden", "puff_dogs", "pastor"] // Nombres de tus imágenes en Assets
     
     var body: some View {
         ScrollView {
             VStack(spacing: 20) {
                 // Título
                 Text(controlador.publicacion_seleccionada?.title ?? "Publicación")
-                    .font(.system(size: 28, weight: .bold, design: .rounded))
+                    .font(.system(size: 30, weight: .bold, design: .rounded))
                     .foregroundColor(Color(red: 0.1, green: 0.3, blue: 0.7))
                     .padding(.top, 20)
                 
@@ -38,14 +38,14 @@ struct PublicacionVista: View {
                     .frame(height: 250)
                     .overlay(
                         RoundedRectangle(cornerRadius: 15)
-                            .stroke(Color.orange, lineWidth: 3)
+                            .stroke(Color.red, lineWidth: 3)
                     )
                     .padding(.horizontal)
                 }
                 .buttonStyle(ScaleButtonStyle()) // Aplicamos animación personalizada
                 
                 // Cuadro de texto descriptivo
-                Text("Nuestro Exclusivo Catálogo Canino")
+                Text("Nuestro Catalogo Personalizado")
                     .font(.system(.title2, design: .serif))
                     .italic()
                     .foregroundColor(.white)

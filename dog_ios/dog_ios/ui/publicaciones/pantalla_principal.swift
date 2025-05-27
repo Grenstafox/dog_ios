@@ -1,10 +1,9 @@
 //
 //  publicaciones_generales.swift
-//  bocetos_IOS
+//  dog_ios
 //
-//  Created by alumno on 4/7/25.
+//  Created by alumno on 5/27/25.
 //
-
 import SwiftUI
 
 struct GeneralPublicaciones: View {

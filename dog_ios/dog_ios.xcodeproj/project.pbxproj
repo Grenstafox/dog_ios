@@ -21,8 +21,7 @@
 		FB37E9F22DDB85E700EECFF9 /* Lista_perros.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB37E9D52DDB85E700EECFF9 /* Lista_perros.swift */; };
 		FB37E9F32DDB85E700EECFF9 /* menu_aplicacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB37E9D72DDB85E700EECFF9 /* menu_aplicacion.swift */; };
 		FB37E9F42DDB85E700EECFF9 /* perfil_vista_basica.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB37E9D92DDB85E700EECFF9 /* perfil_vista_basica.swift */; };
-		FB37E9F52DDB85E700EECFF9 /* publicacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB37E9DB2DDB85E700EECFF9 /* publicacion.swift */; };
-		FB37E9F62DDB85E700EECFF9 /* publicaciones_generales.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB37E9DC2DDB85E700EECFF9 /* publicaciones_generales.swift */; };
+		FB37E9F52DDB85E700EECFF9 /* menu_de_seleccion.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB37E9DB2DDB85E700EECFF9 /* menu_de_seleccion.swift */; };
 		FB37E9F72DDB85E700EECFF9 /* DogAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB37E9DF2DDB85E700EECFF9 /* DogAPI.swift */; };
 		FB37E9F82DDB85E700EECFF9 /* erroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB37E9E02DDB85E700EECFF9 /* erroes.swift */; };
 		FB37E9F92DDB85E700EECFF9 /* placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB37E9E12DDB85E700EECFF9 /* placeholder.swift */; };
@@ -30,6 +29,7 @@
 		FB37E9FD2DDB92B900EECFF9 /* colores.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB37E9FC2DDB92B900EECFF9 /* colores.swift */; };
 		FBA75C142DE4BBD400F87A64 /* info_perros.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA75C132DE4BBD400F87A64 /* info_perros.swift */; };
 		FBA9090B2DDE29C3002C19C2 /* slider dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA9090A2DDE29C3002C19C2 /* slider dog.swift */; };
+		FBE8BEEC2DE658AA00968684 /* pantalla_principal.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8BEEB2DE658AA00968684 /* pantalla_principal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,8 +48,7 @@
 		FB37E9D52DDB85E700EECFF9 /* Lista_perros.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lista_perros.swift; sourceTree = "<group>"; };
 		FB37E9D72DDB85E700EECFF9 /* menu_aplicacion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = menu_aplicacion.swift; sourceTree = "<group>"; };
 		FB37E9D92DDB85E700EECFF9 /* perfil_vista_basica.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = perfil_vista_basica.swift; sourceTree = "<group>"; };
-		FB37E9DB2DDB85E700EECFF9 /* publicacion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = publicacion.swift; sourceTree = "<group>"; };
-		FB37E9DC2DDB85E700EECFF9 /* publicaciones_generales.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = publicaciones_generales.swift; sourceTree = "<group>"; };
+		FB37E9DB2DDB85E700EECFF9 /* menu_de_seleccion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = menu_de_seleccion.swift; sourceTree = "<group>"; };
 		FB37E9DF2DDB85E700EECFF9 /* DogAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DogAPI.swift; sourceTree = "<group>"; };
 		FB37E9E02DDB85E700EECFF9 /* erroes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = erroes.swift; sourceTree = "<group>"; };
 		FB37E9E12DDB85E700EECFF9 /* placeholder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = placeholder.swift; sourceTree = "<group>"; };
@@ -58,6 +57,7 @@
 		FB8B81D12DD7A0C900D9145C /* dog_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dog_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBA75C132DE4BBD400F87A64 /* info_perros.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = info_perros.swift; sourceTree = "<group>"; };
 		FBA9090A2DDE29C3002C19C2 /* slider dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "slider dog.swift"; sourceTree = "<group>"; };
+		FBE8BEEB2DE658AA00968684 /* pantalla_principal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pantalla_principal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,14 +134,14 @@
 			path = perfil_basico;
 			sourceTree = "<group>";
 		};
-		FB37E9DD2DDB85E700EECFF9 /* publicacion */ = {
+		FB37E9DD2DDB85E700EECFF9 /* publicaciones */ = {
 			isa = PBXGroup;
 			children = (
-				FB37E9DB2DDB85E700EECFF9 /* publicacion.swift */,
-				FB37E9DC2DDB85E700EECFF9 /* publicaciones_generales.swift */,
+				FB37E9DB2DDB85E700EECFF9 /* menu_de_seleccion.swift */,
 				FBA9090A2DDE29C3002C19C2 /* slider dog.swift */,
+				FBE8BEEB2DE658AA00968684 /* pantalla_principal.swift */,
 			);
-			path = publicacion;
+			path = publicaciones;
 			sourceTree = "<group>";
 		};
 		FB37E9DE2DDB85E700EECFF9 /* ui */ = {
@@ -150,7 +150,7 @@
 				FB37E9D62DDB85E700EECFF9 /* perros */,
 				FB37E9D82DDB85E700EECFF9 /* menu_inicial */,
 				FB37E9DA2DDB85E700EECFF9 /* perfil_basico */,
-				FB37E9DD2DDB85E700EECFF9 /* publicacion */,
+				FB37E9DD2DDB85E700EECFF9 /* publicaciones */,
 			);
 			path = ui;
 			sourceTree = "<group>";
@@ -292,7 +292,7 @@
 				FB37E9EF2DDB85E700EECFF9 /* Publicacion.swift in Sources */,
 				FB37E9F32DDB85E700EECFF9 /* menu_aplicacion.swift in Sources */,
 				FB37E9E92DDB85E700EECFF9 /* pagina_resultados.swift in Sources */,
-				FB37E9F52DDB85E700EECFF9 /* publicacion.swift in Sources */,
+				FB37E9F52DDB85E700EECFF9 /* menu_de_seleccion.swift in Sources */,
 				FB37E9EE2DDB85E700EECFF9 /* perfil.swift in Sources */,
 				FB37E9E72DDB85E700EECFF9 /* controlador_publicacion.swift in Sources */,
 				FB37E9E52DDB85E700EECFF9 /* controlador_aplicaciones.swift in Sources */,
@@ -304,9 +304,9 @@
 				FB37E9FD2DDB92B900EECFF9 /* colores.swift in Sources */,
 				FBA75C142DE4BBD400F87A64 /* info_perros.swift in Sources */,
 				FB37E9ED2DDB85E700EECFF9 /* comentario.swift in Sources */,
-				FB37E9F62DDB85E700EECFF9 /* publicaciones_generales.swift in Sources */,
 				FB37E9F82DDB85E700EECFF9 /* erroes.swift in Sources */,
 				FB37E9F72DDB85E700EECFF9 /* DogAPI.swift in Sources */,
+				FBE8BEEC2DE658AA00968684 /* pantalla_principal.swift in Sources */,
 				FB37E9E62DDB85E700EECFF9 /* controlador_app.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

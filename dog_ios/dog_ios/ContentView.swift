@@ -6,12 +6,10 @@
 //
 
 import SwiftUI
-
 import PhotosUI
 
 struct ContentView: View {
-    @State var foto_seleccionada:
-        PhotosPickerItem? = nil
+    @State var foto_seleccionada: PhotosPickerItem? = nil
     @State var foto_a_mostrar: UIImage? = nil
     
     var body: some View {
@@ -59,7 +57,6 @@ struct ContentView: View {
         .padding()
     }
 }
-
 #Preview {
     ContentView()
 }

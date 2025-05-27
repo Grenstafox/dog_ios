@@ -12,23 +12,23 @@
 		FB37E9E72DDB85E700EECFF9 /* controlador_publicacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB37E9C62DDB85E700EECFF9 /* controlador_publicacion.swift */; };
 		FB37E9E82DDB85E700EECFF9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB37E9C82DDB85E700EECFF9 /* ContentView.swift */; };
 		FB37E9E92DDB85E700EECFF9 /* pagina_resultados.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB37E9C92DDB85E700EECFF9 /* pagina_resultados.swift */; };
-		FB37E9EA2DDB85E700EECFF9 /* mono_chino.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB37E9CB2DDB85E700EECFF9 /* mono_chino.swift */; };
+		FB37E9EA2DDB85E700EECFF9 /* Perrito.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB37E9CB2DDB85E700EECFF9 /* Perrito.swift */; };
 		FB37E9ED2DDB85E700EECFF9 /* comentario.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB37E9CF2DDB85E700EECFF9 /* comentario.swift */; };
 		FB37E9EE2DDB85E700EECFF9 /* perfil.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB37E9D02DDB85E700EECFF9 /* perfil.swift */; };
 		FB37E9EF2DDB85E700EECFF9 /* Publicacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB37E9D12DDB85E700EECFF9 /* Publicacion.swift */; };
 		FB37E9F02DDB85E700EECFF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB37E9D32DDB85E700EECFF9 /* Assets.xcassets */; };
 		FB37E9F12DDB85E700EECFF9 /* RedesSocialesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB37E9D42DDB85E700EECFF9 /* RedesSocialesApp.swift */; };
-		FB37E9F22DDB85E700EECFF9 /* PantallaPersonajes.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB37E9D52DDB85E700EECFF9 /* PantallaPersonajes.swift */; };
+		FB37E9F22DDB85E700EECFF9 /* Lista_perros.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB37E9D52DDB85E700EECFF9 /* Lista_perros.swift */; };
 		FB37E9F32DDB85E700EECFF9 /* menu_aplicacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB37E9D72DDB85E700EECFF9 /* menu_aplicacion.swift */; };
 		FB37E9F42DDB85E700EECFF9 /* perfil_vista_basica.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB37E9D92DDB85E700EECFF9 /* perfil_vista_basica.swift */; };
 		FB37E9F52DDB85E700EECFF9 /* publicacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB37E9DB2DDB85E700EECFF9 /* publicacion.swift */; };
 		FB37E9F62DDB85E700EECFF9 /* publicaciones_generales.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB37E9DC2DDB85E700EECFF9 /* publicaciones_generales.swift */; };
-		FB37E9F72DDB85E700EECFF9 /* dragonball_api.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB37E9DF2DDB85E700EECFF9 /* dragonball_api.swift */; };
+		FB37E9F72DDB85E700EECFF9 /* DogAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB37E9DF2DDB85E700EECFF9 /* DogAPI.swift */; };
 		FB37E9F82DDB85E700EECFF9 /* erroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB37E9E02DDB85E700EECFF9 /* erroes.swift */; };
 		FB37E9F92DDB85E700EECFF9 /* placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB37E9E12DDB85E700EECFF9 /* placeholder.swift */; };
 		FB37E9FA2DDB85E700EECFF9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB37E9E32DDB85E700EECFF9 /* Preview Assets.xcassets */; };
 		FB37E9FD2DDB92B900EECFF9 /* colores.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB37E9FC2DDB92B900EECFF9 /* colores.swift */; };
-		FBA75C142DE4BBD400F87A64 /* personaje_vista.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA75C132DE4BBD400F87A64 /* personaje_vista.swift */; };
+		FBA75C142DE4BBD400F87A64 /* info_perros.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA75C132DE4BBD400F87A64 /* info_perros.swift */; };
 		FBA9090B2DDE29C3002C19C2 /* slider dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA9090A2DDE29C3002C19C2 /* slider dog.swift */; };
 /* End PBXBuildFile section */
 
@@ -39,24 +39,24 @@
 		FB37E9C62DDB85E700EECFF9 /* controlador_publicacion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = controlador_publicacion.swift; sourceTree = "<group>"; };
 		FB37E9C82DDB85E700EECFF9 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FB37E9C92DDB85E700EECFF9 /* pagina_resultados.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pagina_resultados.swift; sourceTree = "<group>"; };
-		FB37E9CB2DDB85E700EECFF9 /* mono_chino.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mono_chino.swift; sourceTree = "<group>"; };
+		FB37E9CB2DDB85E700EECFF9 /* Perrito.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Perrito.swift; sourceTree = "<group>"; };
 		FB37E9CF2DDB85E700EECFF9 /* comentario.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = comentario.swift; sourceTree = "<group>"; };
 		FB37E9D02DDB85E700EECFF9 /* perfil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = perfil.swift; sourceTree = "<group>"; };
 		FB37E9D12DDB85E700EECFF9 /* Publicacion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Publicacion.swift; sourceTree = "<group>"; };
 		FB37E9D32DDB85E700EECFF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB37E9D42DDB85E700EECFF9 /* RedesSocialesApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedesSocialesApp.swift; sourceTree = "<group>"; };
-		FB37E9D52DDB85E700EECFF9 /* PantallaPersonajes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PantallaPersonajes.swift; sourceTree = "<group>"; };
+		FB37E9D52DDB85E700EECFF9 /* Lista_perros.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lista_perros.swift; sourceTree = "<group>"; };
 		FB37E9D72DDB85E700EECFF9 /* menu_aplicacion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = menu_aplicacion.swift; sourceTree = "<group>"; };
 		FB37E9D92DDB85E700EECFF9 /* perfil_vista_basica.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = perfil_vista_basica.swift; sourceTree = "<group>"; };
 		FB37E9DB2DDB85E700EECFF9 /* publicacion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = publicacion.swift; sourceTree = "<group>"; };
 		FB37E9DC2DDB85E700EECFF9 /* publicaciones_generales.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = publicaciones_generales.swift; sourceTree = "<group>"; };
-		FB37E9DF2DDB85E700EECFF9 /* dragonball_api.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dragonball_api.swift; sourceTree = "<group>"; };
+		FB37E9DF2DDB85E700EECFF9 /* DogAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DogAPI.swift; sourceTree = "<group>"; };
 		FB37E9E02DDB85E700EECFF9 /* erroes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = erroes.swift; sourceTree = "<group>"; };
 		FB37E9E12DDB85E700EECFF9 /* placeholder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = placeholder.swift; sourceTree = "<group>"; };
 		FB37E9E32DDB85E700EECFF9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FB37E9FC2DDB92B900EECFF9 /* colores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colores.swift; sourceTree = "<group>"; };
 		FB8B81D12DD7A0C900D9145C /* dog_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dog_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FBA75C132DE4BBD400F87A64 /* personaje_vista.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = personaje_vista.swift; sourceTree = "<group>"; };
+		FBA75C132DE4BBD400F87A64 /* info_perros.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = info_perros.swift; sourceTree = "<group>"; };
 		FBA9090A2DDE29C3002C19C2 /* slider dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "slider dog.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,7 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				FB37E9CA2DDB85E700EECFF9 /* soporte */,
-				FB37E9CB2DDB85E700EECFF9 /* mono_chino.swift */,
+				FB37E9CB2DDB85E700EECFF9 /* Perrito.swift */,
 			);
 			path = dragon_ball;
 			sourceTree = "<group>";
@@ -109,13 +109,13 @@
 			path = modelos;
 			sourceTree = "<group>";
 		};
-		FB37E9D62DDB85E700EECFF9 /* dragon_ball */ = {
+		FB37E9D62DDB85E700EECFF9 /* perros */ = {
 			isa = PBXGroup;
 			children = (
-				FB37E9D52DDB85E700EECFF9 /* PantallaPersonajes.swift */,
-				FBA75C132DE4BBD400F87A64 /* personaje_vista.swift */,
+				FB37E9D52DDB85E700EECFF9 /* Lista_perros.swift */,
+				FBA75C132DE4BBD400F87A64 /* info_perros.swift */,
 			);
-			path = dragon_ball;
+			path = perros;
 			sourceTree = "<group>";
 		};
 		FB37E9D82DDB85E700EECFF9 /* menu_inicial */ = {
@@ -147,7 +147,7 @@
 		FB37E9DE2DDB85E700EECFF9 /* ui */ = {
 			isa = PBXGroup;
 			children = (
-				FB37E9D62DDB85E700EECFF9 /* dragon_ball */,
+				FB37E9D62DDB85E700EECFF9 /* perros */,
 				FB37E9D82DDB85E700EECFF9 /* menu_inicial */,
 				FB37E9DA2DDB85E700EECFF9 /* perfil_basico */,
 				FB37E9DD2DDB85E700EECFF9 /* publicacion */,
@@ -158,7 +158,7 @@
 		FB37E9E22DDB85E700EECFF9 /* servicios_api */ = {
 			isa = PBXGroup;
 			children = (
-				FB37E9DF2DDB85E700EECFF9 /* dragonball_api.swift */,
+				FB37E9DF2DDB85E700EECFF9 /* DogAPI.swift */,
 				FB37E9E02DDB85E700EECFF9 /* erroes.swift */,
 				FB37E9E12DDB85E700EECFF9 /* placeholder.swift */,
 			);
@@ -287,7 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB37E9F22DDB85E700EECFF9 /* PantallaPersonajes.swift in Sources */,
+				FB37E9F22DDB85E700EECFF9 /* Lista_perros.swift in Sources */,
 				FB37E9F12DDB85E700EECFF9 /* RedesSocialesApp.swift in Sources */,
 				FB37E9EF2DDB85E700EECFF9 /* Publicacion.swift in Sources */,
 				FB37E9F32DDB85E700EECFF9 /* menu_aplicacion.swift in Sources */,
@@ -299,14 +299,14 @@
 				FB37E9F42DDB85E700EECFF9 /* perfil_vista_basica.swift in Sources */,
 				FB37E9E82DDB85E700EECFF9 /* ContentView.swift in Sources */,
 				FB37E9F92DDB85E700EECFF9 /* placeholder.swift in Sources */,
-				FB37E9EA2DDB85E700EECFF9 /* mono_chino.swift in Sources */,
+				FB37E9EA2DDB85E700EECFF9 /* Perrito.swift in Sources */,
 				FBA9090B2DDE29C3002C19C2 /* slider dog.swift in Sources */,
 				FB37E9FD2DDB92B900EECFF9 /* colores.swift in Sources */,
-				FBA75C142DE4BBD400F87A64 /* personaje_vista.swift in Sources */,
+				FBA75C142DE4BBD400F87A64 /* info_perros.swift in Sources */,
 				FB37E9ED2DDB85E700EECFF9 /* comentario.swift in Sources */,
 				FB37E9F62DDB85E700EECFF9 /* publicaciones_generales.swift in Sources */,
 				FB37E9F82DDB85E700EECFF9 /* erroes.swift in Sources */,
-				FB37E9F72DDB85E700EECFF9 /* dragonball_api.swift in Sources */,
+				FB37E9F72DDB85E700EECFF9 /* DogAPI.swift in Sources */,
 				FB37E9E62DDB85E700EECFF9 /* controlador_app.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

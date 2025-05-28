@@ -12,7 +12,7 @@ struct PersonajeVista: View {
     
     var body: some View {
         ScrollView {
-            if let perro = controlador.personaje {
+            if let perro = controlador.Perros{
                 VStack(spacing: 20) {
                     ZStack{
                         Rectangle()
@@ -105,7 +105,7 @@ struct InfoRow: View {
 #Preview {
     let controlador = ControladorAplicacion()
     // Mock de datos para el preview
-    controlador.personaje = Perrito(
+    controlador.Perros = Perrito(
         imageUrl: "https://images.dog.ceo/breeds/labrador/n02099712_741.jpg",
         breed: "Labrador Retriever"
     )

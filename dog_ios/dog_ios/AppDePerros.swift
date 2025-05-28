@@ -9,7 +9,7 @@ import SwiftUI
 
 @main
 @MainActor
-struct RedesSocialesApp: App {
+struct AppPerruna: App {
     @State var controlador = ControladorAplicacion()
    
     var body: some Scene {

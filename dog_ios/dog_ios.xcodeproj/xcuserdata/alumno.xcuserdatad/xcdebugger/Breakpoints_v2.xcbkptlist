@@ -14,8 +14,8 @@
             filePath = "dog_ios/controladores/controlador_app.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "86"
-            endingLineNumber = "86"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
             landmarkName = "descargar_perfil(id:)"
             landmarkType = "7">
          </BreakpointContent>

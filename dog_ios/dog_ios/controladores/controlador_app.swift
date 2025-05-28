@@ -16,7 +16,7 @@ public class ControladorAplicacion {
     var perfil_a_mostrar: Perfil? = nil
     
     var pagina_resultados: PaginaResultado? = nil
-    var personaje: Perrito? = nil
+    var Perros: Perrito? = nil
     
     init() {
         Task.detached(priority: .high) {
@@ -50,7 +50,7 @@ public class ControladorAplicacion {
     
     func descargar_info_perro(breed: String) async { // Cambiado de id: Int a breed: String
         guard let imagenUrl = await DogAPI().descargar_imagen_aleatoria(raza: breed) else { return }
-        self.personaje = Perrito(imageUrl: imagenUrl, breed: breed)
+        self.Perros = Perrito(imageUrl: imagenUrl, breed: breed)
     }
     
     func descargar_informacion_perro(breed: String) { // Adaptado
@@ -61,18 +61,10 @@ public class ControladorAplicacion {
     
     func descargar_publicaciones() async {
         defer { print("Función completada: \(#function)") }
-        
-        guard let publicaciones_descargadas = try? await PlaceHolderAPI().descargar_publicaciones() else { return }
-        publicaciones = publicaciones_descargadas
     }
     
     func descargar_comentarios() async {
         defer { print("Función completada: \(#function)") }
-        
-        guard let publicacion = publicacion_seleccionada,
-              let comentarios_descargados = try? await PlaceHolderAPI().descargar_comentarios(post_id: publicacion.id) else { return }
-        
-        comentarios = comentarios_descargados
     }
     
     func seleccionar_publicacion(_ publicacion: Publicacion) {

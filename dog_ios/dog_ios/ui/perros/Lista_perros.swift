@@ -18,12 +18,18 @@ struct PantallaPersonajes: View {
         if let pagina = controlador.pagina_resultados {
             NavigationStack {
                 ZStack {
-                    Color.orange
+                    Color.blue
                         .ignoresSafeArea()
                     
                     VStack {
                         Text("Perritos disponibles")
-                            .font(.largeTitle)
+                            .font(.system(size: 35, weight: .bold))
+                            .foregroundStyle(
+                                LinearGradient(gradient: Gradient(colors: [Color.white ,Color.white, Color.white]),
+                                               startPoint: .top,
+                                               endPoint: .bottom
+                                    )
+                                )
                             .bold()
                             .frame(maxWidth: .infinity, alignment: .center)
                             .padding(.top)
@@ -95,7 +101,7 @@ struct PantallaPersonajes: View {
             }
         } else {
             ProgressView("Cargando perritos...")
-                .progressViewStyle(CircularProgressViewStyle(tint: .orange))
+                .progressViewStyle(CircularProgressViewStyle(tint: .blue))
                 .scaleEffect(1.5)
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
         }

@@ -14,13 +14,20 @@ struct PersonajeVista: View {
         ScrollView {
             if let perro = controlador.personaje {
                 VStack(spacing: 20) {
-                    // Header
-                    Text(perro.name)
-                        .font(.system(size: 28, weight: .bold))
-                        .foregroundColor(.white)
-                        .shadow(color: .black, radius: 2, x: 2, y: 2)
-                        .padding(.top)
-                    
+                    ZStack{
+                        Rectangle()
+                        // Header con un diseño mas bonito
+                        Text(perro.breed)
+                            .font(.system(size: 35, weight: .bold))
+                            .foregroundStyle(
+                                LinearGradient(gradient: Gradient(colors: [Color.white ,Color.white, Color.white]),
+                                               startPoint: .top,
+                                               endPoint: .bottom
+                                    )
+                                )
+                            .shadow(color: .black, radius: 2, x: 2, y: 2)
+                            .padding(.top)
+                    }
                     // Imagen con mejor manejo de estados
                     AsyncImage(url: URL(string: perro.imageUrl)) { phase in
                         switch phase {
@@ -64,7 +71,11 @@ struct PersonajeVista: View {
         }
         .background(
             LinearGradient(
-                gradient: Gradient(colors: [Color.orange, Color.yellow]),
+                gradient: Gradient(colors: [
+                    Color(red: 0.1, green: 0.3, blue: 0.7),  // Azul oscuro
+                    Color(red: 0.3, green: 0.5, blue: 0.9),  // Azul medio
+                    Color(red: 0.5, green: 0.7, blue: 1.0)   // Azul claro
+                ]),
                 startPoint: .top,
                 endPoint: .bottom
             )
@@ -73,7 +84,7 @@ struct PersonajeVista: View {
     }
 }
 
-// Componente reutilizable
+// Struct para la informacion del perro y cualquier dato
 struct InfoRow: View {
     let label: String
     let value: String
@@ -90,7 +101,7 @@ struct InfoRow: View {
     }
 }
 
-// Preview con datos mockeados
+// Preview con datos del perro con imagenes y breed de donde sale
 #Preview {
     let controlador = ControladorAplicacion()
     // Mock de datos para el preview
@@ -103,7 +114,7 @@ struct InfoRow: View {
         .environment(controlador)
 }
 
-// Preview sin datos para probar el estado vacío
+// Preview que ayuda a visualizar los datos de la pantalla
 #Preview {
     PersonajeVista()
         .environment(ControladorAplicacion())

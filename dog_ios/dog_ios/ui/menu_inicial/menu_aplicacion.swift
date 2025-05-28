@@ -15,16 +15,14 @@ struct MenuNavegacion: View {
         TabView {
             GeneralPublicaciones()
                 .tabItem {
-                    Label("Publicaciones", systemImage: "list.bullet")
-                }
-                .badge(controlador.publicaciones.count)
-            
+                    Label("Inicio", systemImage: "house.fill")
+                }            
             PantallaPersonajes()
                 .tabItem {
                     Label("Perritos", systemImage: "pawprint.fill")  // Icono cambiado
                 }
             
-            Text("Perfil")
+            PerfilBasicoVista()
                 .tabItem {
                     Label("Perfil", systemImage: "person.crop.circle")
                 }

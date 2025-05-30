@@ -20,12 +20,12 @@
 		FB37E9F32DDB85E700EECFF9 /* menu_aplicacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB37E9D72DDB85E700EECFF9 /* menu_aplicacion.swift */; };
 		FB37E9F42DDB85E700EECFF9 /* perfil_vista_basica.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB37E9D92DDB85E700EECFF9 /* perfil_vista_basica.swift */; };
 		FB37E9F52DDB85E700EECFF9 /* menu_de_seleccion.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB37E9DB2DDB85E700EECFF9 /* menu_de_seleccion.swift */; };
-		FB37E9F72DDB85E700EECFF9 /* DogAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB37E9DF2DDB85E700EECFF9 /* DogAPI.swift */; };
-		FB37E9F82DDB85E700EECFF9 /* erroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB37E9E02DDB85E700EECFF9 /* erroes.swift */; };
-		FB37E9F92DDB85E700EECFF9 /* placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB37E9E12DDB85E700EECFF9 /* placeholder.swift */; };
-		FB37E9FA2DDB85E700EECFF9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB37E9E32DDB85E700EECFF9 /* Preview Assets.xcassets */; };
 		FB37E9FD2DDB92B900EECFF9 /* colores.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB37E9FC2DDB92B900EECFF9 /* colores.swift */; };
 		FBA75C142DE4BBD400F87A64 /* info_perros.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA75C132DE4BBD400F87A64 /* info_perros.swift */; };
+		FBC6285C2DEA04330087AF8D /* errores.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC6285B2DEA04330087AF8D /* errores.swift */; };
+		FBC6285E2DEA043C0087AF8D /* placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC6285D2DEA043C0087AF8D /* placeholder.swift */; };
+		FBC628612DEA04510087AF8D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBC6285F2DEA04510087AF8D /* Preview Assets.xcassets */; };
+		FBC628642DEA12A30087AF8D /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC628632DEA12A30087AF8D /* Dog.swift */; };
 		FBE8BEEC2DE658AA00968684 /* pantalla_principal.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8BEEB2DE658AA00968684 /* pantalla_principal.swift */; };
 /* End PBXBuildFile section */
 
@@ -44,13 +44,13 @@
 		FB37E9D72DDB85E700EECFF9 /* menu_aplicacion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = menu_aplicacion.swift; sourceTree = "<group>"; };
 		FB37E9D92DDB85E700EECFF9 /* perfil_vista_basica.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = perfil_vista_basica.swift; sourceTree = "<group>"; };
 		FB37E9DB2DDB85E700EECFF9 /* menu_de_seleccion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = menu_de_seleccion.swift; sourceTree = "<group>"; };
-		FB37E9DF2DDB85E700EECFF9 /* DogAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DogAPI.swift; sourceTree = "<group>"; };
-		FB37E9E02DDB85E700EECFF9 /* erroes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = erroes.swift; sourceTree = "<group>"; };
-		FB37E9E12DDB85E700EECFF9 /* placeholder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = placeholder.swift; sourceTree = "<group>"; };
-		FB37E9E32DDB85E700EECFF9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FB37E9FC2DDB92B900EECFF9 /* colores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colores.swift; sourceTree = "<group>"; };
 		FB8B81D12DD7A0C900D9145C /* dog_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dog_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBA75C132DE4BBD400F87A64 /* info_perros.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = info_perros.swift; sourceTree = "<group>"; };
+		FBC6285B2DEA04330087AF8D /* errores.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = errores.swift; sourceTree = "<group>"; };
+		FBC6285D2DEA043C0087AF8D /* placeholder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = placeholder.swift; sourceTree = "<group>"; };
+		FBC6285F2DEA04510087AF8D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FBC628632DEA12A30087AF8D /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
 		FBE8BEEB2DE658AA00968684 /* pantalla_principal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pantalla_principal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -149,21 +149,12 @@
 		FB37E9E22DDB85E700EECFF9 /* servicios_api */ = {
 			isa = PBXGroup;
 			children = (
-				FB37E9DF2DDB85E700EECFF9 /* DogAPI.swift */,
-				FB37E9E02DDB85E700EECFF9 /* erroes.swift */,
-				FB37E9E12DDB85E700EECFF9 /* placeholder.swift */,
+				FBC6285B2DEA04330087AF8D /* errores.swift */,
+				FBC6285D2DEA043C0087AF8D /* placeholder.swift */,
+				FBC628632DEA12A30087AF8D /* Dog.swift */,
 			);
 			name = servicios_api;
 			path = ../../../ios2.0/bocetos_IOS/bocetos_IOS/servicios_api;
-			sourceTree = "<group>";
-		};
-		FB37E9E42DDB85E700EECFF9 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				FB37E9E32DDB85E700EECFF9 /* Preview Assets.xcassets */,
-			);
-			name = "Preview Content";
-			path = "../../../ios2.0/bocetos_IOS/bocetos_IOS/Preview Content";
 			sourceTree = "<group>";
 		};
 		FB37E9FB2DDB92AA00EECFF9 /* recursos */ = {
@@ -198,13 +189,21 @@
 				FB37E9C82DDB85E700EECFF9 /* ContentView.swift */,
 				FB37E9C72DDB85E700EECFF9 /* controladores */,
 				FB37E9D22DDB85E700EECFF9 /* modelos */,
-				FB37E9E42DDB85E700EECFF9 /* Preview Content */,
+				FBC628602DEA04510087AF8D /* Preview Content */,
 				FB37E9D42DDB85E700EECFF9 /* AppDePerros.swift */,
 				FB37E9E22DDB85E700EECFF9 /* servicios_api */,
 				FB37E9DE2DDB85E700EECFF9 /* ui */,
 				FB37E9C32DDB85E700EECFF9 /* dog_ios-Bridging-Header.h */,
 			);
 			path = dog_ios;
+			sourceTree = "<group>";
+		};
+		FBC628602DEA04510087AF8D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FBC6285F2DEA04510087AF8D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,7 +265,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB37E9FA2DDB85E700EECFF9 /* Preview Assets.xcassets in Resources */,
+				FBC628612DEA04510087AF8D /* Preview Assets.xcassets in Resources */,
 				FB37E9F02DDB85E700EECFF9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,18 +281,18 @@
 				FB37E9F12DDB85E700EECFF9 /* AppDePerros.swift in Sources */,
 				FB37E9EF2DDB85E700EECFF9 /* Publicacion.swift in Sources */,
 				FB37E9F32DDB85E700EECFF9 /* menu_aplicacion.swift in Sources */,
+				FBC6285E2DEA043C0087AF8D /* placeholder.swift in Sources */,
 				FB37E9E92DDB85E700EECFF9 /* pagina_resultados.swift in Sources */,
 				FB37E9F52DDB85E700EECFF9 /* menu_de_seleccion.swift in Sources */,
 				FB37E9EE2DDB85E700EECFF9 /* perfil.swift in Sources */,
 				FB37E9F42DDB85E700EECFF9 /* perfil_vista_basica.swift in Sources */,
 				FB37E9E82DDB85E700EECFF9 /* ContentView.swift in Sources */,
-				FB37E9F92DDB85E700EECFF9 /* placeholder.swift in Sources */,
 				FB37E9EA2DDB85E700EECFF9 /* Perrito.swift in Sources */,
+				FBC6285C2DEA04330087AF8D /* errores.swift in Sources */,
 				FB37E9FD2DDB92B900EECFF9 /* colores.swift in Sources */,
 				FBA75C142DE4BBD400F87A64 /* info_perros.swift in Sources */,
+				FBC628642DEA12A30087AF8D /* Dog.swift in Sources */,
 				FB37E9ED2DDB85E700EECFF9 /* comentario.swift in Sources */,
-				FB37E9F82DDB85E700EECFF9 /* erroes.swift in Sources */,
-				FB37E9F72DDB85E700EECFF9 /* DogAPI.swift in Sources */,
 				FBE8BEEC2DE658AA00968684 /* pantalla_principal.swift in Sources */,
 				FB37E9E62DDB85E700EECFF9 /* controlador_app.swift in Sources */,
 			);
